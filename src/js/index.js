@@ -60,6 +60,7 @@ function bindTouch() {
             precent = 0;
         }
         root.process.update(precent);
+        
     }).on("touchend",function (e) {
         // 计算百分比 跳转播放 重新开始进度条渲染
         var x = e.changedTouches[0].clientX;
